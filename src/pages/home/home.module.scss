@@ -3,7 +3,10 @@
   position: absolute;
 
   .innerContent {
-    margin: 0 auto;
+    border: 0.5px solid lightgrey;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 20px auto;
     max-width: 600px;
 
     .headline {
@@ -14,6 +17,48 @@
       font-size: 22px;
       text-transform: uppercase;
       letter-spacing: 2px;
+    }
+
+    .picAndWelcome {
+      img {
+        display: block;
+        max-width: 250px;
+        margin: 0 auto;
+      }
+
+      h1 {
+        text-align: center;
+        padding: 0 45px;
+      }
+    }
+
+    .welcomeText {
+      padding: 10px;
+      text-align: center;
+      border-top: 0.5px solid lightgrey;
+    }
+
+    .cvContainer {
+      margin-bottom: 10px;
+      padding: 10px;
+      text-align: center;
+      border-top: 0.5px solid lightgrey;
+
+      h2 {
+        margin: 10px 0px;
+      }
+    }
+
+    .contactContainer {
+      padding: 10px;
+      text-align: center;
+      border-top: 0.5px solid lightgrey;
+    }
+
+    footer {
+      padding: 10px;
+      text-align: center;
+      border-top: 0.5px solid lightgrey;
     }
   }
 }
