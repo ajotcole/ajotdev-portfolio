@@ -1,4 +1,6 @@
 import { imageIndex } from "../../assets/fileIndex";
+import { Expierience } from "../../components/expierience/expierience";
+import { Skills } from "../../components/skills/skills";
 import styles from "./home.module.scss";
 
 export const Home = () => {
@@ -7,7 +9,7 @@ export const Home = () => {
       <div className={styles.innerContent}>
         <div className={styles.headline}>AJOT.DEV</div>
         <div className={styles.picAndWelcome}>
-          <img src={imageIndex.ProfilePic}></img>
+          <img src={imageIndex.ProfilePic} alt="Person"></img>
           <h1>Hi, I'm AJ and I am a developer and support engineer.</h1>
         </div>
         <div className={styles.welcomeText}>
@@ -19,9 +21,13 @@ export const Home = () => {
           pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
           culpa qui officia deserunt mollit anim id est laborum.
         </div>
+        <div className={styles.skillsContainer}>
+          <h2>My Skillset</h2>
+          <Skills />
+        </div>
         <div className={styles.cvContainer}>
           <h2>My Expierience</h2>
-          <div></div>
+          <Expierience />
         </div>
         <div className={styles.contactContainer}>
           <h2>Contact me here</h2>
