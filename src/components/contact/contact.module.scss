@@ -1,0 +1,25 @@
+.contactContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+
+  .emailContainer {
+    cursor: pointer;
+
+    &:hover {
+      svg {
+        color: red;
+      }
+    }
+  }
+
+  .linkedinContainer {
+    cursor: pointer;
+
+    &:hover {
+      svg {
+        color: red;
+      }
+    }
+  }
+}

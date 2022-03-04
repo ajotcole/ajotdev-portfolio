@@ -1,6 +1,6 @@
 .homeContainer {
-  width: 100vw;
   position: absolute;
+  width: 100%;
 
   .innerContent {
     border: 0.5px solid lightgrey;
@@ -53,14 +53,19 @@
       border-top: 0.5px solid lightgrey;
 
       h2 {
-        margin: 10px 0px;
+        margin: 20px 0px;
       }
     }
 
     .contactContainer {
       padding: 10px;
+      margin-bottom: 10px;
       text-align: center;
       border-top: 0.5px solid lightgrey;
+
+      h2 {
+        margin: 20px 0px;
+      }
     }
 
     footer {

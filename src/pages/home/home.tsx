@@ -1,4 +1,5 @@
 import { imageIndex } from "../../assets/fileIndex";
+import { Contact } from "../../components/contact/contact";
 import { Expierience } from "../../components/expierience/expierience";
 import { Skills } from "../../components/skills/skills";
 import styles from "./home.module.scss";
@@ -31,6 +32,7 @@ export const Home = () => {
         </div>
         <div className={styles.contactContainer}>
           <h2>Contact me here</h2>
+          <Contact />
         </div>
         <footer>Data Protection </footer>
       </div>
