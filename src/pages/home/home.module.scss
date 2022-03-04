@@ -1,0 +1,19 @@
+.homeContainer {
+  width: 100vw;
+  position: absolute;
+
+  .innerContent {
+    margin: 0 auto;
+    max-width: 600px;
+
+    .headline {
+      font-family: "Karla", sans-serif;
+      text-align: center;
+      width: 100%;
+      padding: 10px 0;
+      font-size: 22px;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+    }
+  }
+}
