@@ -8,19 +8,17 @@ export const Expierience = () => {
       period: "02.2020 - Today",
       position: 1,
       texts: [
-        "Hier habe ich was gemacht.",
-        "Und das wird auch noch mal gemacht.",
+        "Creating SharePoint solutions for customers",
+        "Developing webparts using React.",
+        "Creating webservices using .NET",
       ],
     },
     {
       company: "LW Mega Yacht Solutions GmbH",
-      jobTitle: "Support Engineer",
+      jobTitle: "IT Support Engineer",
       period: "09.2021 - Today",
       position: 2,
-      texts: [
-        "Hier habe ich was gemacht.",
-        "Und das wird auch noch mal gemacht.",
-      ],
+      texts: ["Resturcturing internal IT.", "Integration into Microsoft 365."],
     },
     {
       company: "neusta Software Development GmbH",
@@ -28,8 +26,8 @@ export const Expierience = () => {
       period: "02.2018 - 08.2019",
       position: 3,
       texts: [
-        "Hier habe ich was gemacht.",
-        "Und das wird auch noch mal gemacht.",
+        "Developing a search and booking engine for a travel agency using Angular.",
+        "Working in agile teams using JIRA.",
       ],
     },
     {
@@ -50,12 +48,12 @@ export const Expierience = () => {
         .sort((a, b) => a.position - b.position)
         .map((x, i) => (
           <div className={styles.expierienceContainter} key={i}>
-            <div>
+            <div style={{ width: "40%" }}>
               <h3>{x.jobTitle}</h3>
               <div>{x.period}</div>
               <div>{x.company}</div>
             </div>
-            <div>
+            <div style={{ width: "60%" }}>
               <ul>
                 {x.texts.map((x, ix) => (
                   <li key={ix}>{x}</li>

@@ -36,8 +36,10 @@
     .welcomeText {
       line-height: 26px;
       padding: 10px;
-      text-align: center;
       border-top: 0.5px solid lightgrey;
+      div {
+        margin-bottom: 5px;
+      }
     }
 
     .skillsContainer {

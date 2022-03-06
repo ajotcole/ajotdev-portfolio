@@ -5,14 +5,21 @@ import { SiLinkedin } from "react-icons/si";
 export const Contact = () => {
   return (
     <div className={styles.contactContainer}>
-      <div className={styles.emailContainer}>
+      <a
+        href="mailto:ajot.dev@outlook.com"
+        target="_blank"
+        className={styles.emailContainer}
+      >
         <MdEmail size={32} />
         <div>E-Mail</div>
-      </div>
-      <div className={styles.linkedinContainer}>
+      </a>
+      <a
+        href="https://www.linkedin.com/in/alexander-james-cole-130bb3114"
+        className={styles.linkedinContainer}
+      >
         <SiLinkedin size={32} />
         <div>LinkedIn</div>
-      </div>
+      </a>
     </div>
   );
 };

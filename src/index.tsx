@@ -3,6 +3,9 @@ import ReactDOM from "react-dom";
 import "./index.scss";
 import reportWebVitals from "./reportWebVitals";
 import { Home } from "./pages/home/home";
+import { initializeIcons } from "@fluentui/react";
+
+initializeIcons();
 
 ReactDOM.render(
   <React.StrictMode>
